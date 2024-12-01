@@ -3,8 +3,8 @@
 --
 -- Author: Majo76
 -- email: ls (at) majo76 (dot) de
--- @Date: 25.11.2024
--- @Version: 1.0.1.0
+-- @Date: 01.12.2024
+-- @Version: 1.1.2.0
 
 local myName = "FS25_EnhancedVehicle_HUD"
 

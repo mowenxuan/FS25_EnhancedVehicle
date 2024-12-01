@@ -3,8 +3,8 @@
 --
 -- Author: Majo76
 -- email: ls (at) majo76 (dot) de
--- @Date: 28.11.2024
--- @Version: 1.1.0.0
+-- @Date: 01.12.2024
+-- @Version: 1.1.2.0
 
 --[[
 CHANGELOG
