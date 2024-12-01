@@ -3,8 +3,8 @@
 --
 -- Author: Majo76
 -- email: ls (at) majo76 (dot) de
--- @Date: 28.11.2024
--- @Version: 1.1.0.0
+-- @Date: 01.12.2024
+-- @Version: 1.1.2.2
 
 --[[
 CHANGELOG
@@ -156,6 +156,20 @@ function FS25_EnhancedVehicle:onMissionLoaded(mission)
   -- create HUD
   FS25_EnhancedVehicle.ui_hud = FS25_EnhancedVehicle_HUD:new(mission.hud.speedMeter, mission.hud.gameInfoDisplay, self.modDirectory)
   FS25_EnhancedVehicle.ui_hud:load()
+
+  -- hook into function, which is called only if the HUD is really visible for a vehicle
+  mission.hud.drawControlledEntityHUD = Utils.appendedFunction(mission.hud.drawControlledEntityHUD,
+    function(self)
+      if self.isVisible then
+        FS25_EnhancedVehicle.ui_hud:drawHUD()
+      end
+    end)
+
+  -- hook into function, which sets the vehicle for HUD display
+  mission.hud.setControlledVehicle = Utils.appendedFunction(mission.hud.setControlledVehicle,
+    function(self, vehicle)
+      FS25_EnhancedVehicle.ui_hud:setVehicle(vehicle)
+    end)
 end
 
 -- #############################################################################
@@ -1234,10 +1248,6 @@ function FS25_EnhancedVehicle:onDraw()
       end -- <- end of draw tracks
     end -- <- end of snapIsEnabled
 
-    -- unfortunately, have to call the draw HUD this method
-    FS25_EnhancedVehicle.ui_hud:setVehicle(self)
-    FS25_EnhancedVehicle.ui_hud:drawHUD()
-
     -- reset text stuff to "defaults"
     setTextColor(1,1,1,1)
     setTextAlignment(RenderText.ALIGN_LEFT)
@@ -1424,10 +1434,7 @@ function FS25_EnhancedVehicle:onActionCallUp(actionName, keyStatus, arg4, arg5, 
     if actionName == "FS25_EnhancedVehicle_ODO_MODE" then
       if g_currentMission.time < FS25_EnhancedVehicle.nextActionTime + 1000 then
         -- switch odo mode (odo <-> trip)
-        self.vData.want[16] = self.vData.want[16] + 1
-        if self.vData.want[16] > 1 then
-          self.vData.want[16] = 0
-        end
+        self.vData.want[16] = (self.vData.want[16] + 1) % 2
         if self.isClient and not self.isServer then
           self.vData.is[16] = self.vData.want[16]
         end
@@ -1708,7 +1715,7 @@ function FS25_EnhancedVehicle:onActionCall(actionName, keyStatus, arg4, arg5, ar
         if snapToAngle == 0 or snapToAngle == 1 or snapToAngle < 0 or snapToAngle >= 360 then
           snapToAngle = self.vData.rot
         end
-        self.vData.want[4] = Round(closestAngle(self.vData.rot, snapToAngle), 0)
+        self.vData.want[4] = Round(ClosestAngle(self.vData.rot, snapToAngle), 0)
         if (self.vData.want[4] ~= self.vData.want[4]) then
           self.vData.want[4] = 0
         end
@@ -1737,7 +1744,7 @@ function FS25_EnhancedVehicle:onActionCall(actionName, keyStatus, arg4, arg5, ar
 
           -- when facing "backwards" -> flip grid
           if diffdeg < -90 or diffdeg > 90 then
-            rot2 = AngleFix(rot2 + 180)
+            rot2 = NormalizeAngle(rot2 + 180)
           end
           FS25_EnhancedVehicle:updateTrack(self, true, rot2, false, 0, true, 0, 0)
           self.vData.want[4] = rot2
@@ -2073,7 +2080,7 @@ function FS25_EnhancedVehicle:updateTrack(self, updateAngle, updateAngleValue, u
 
       -- if cabin is rotated -> angle should rotate also
       if self.spec_drivable.reverserDirection < 0 then
-        _rot = AngleFix(_rot + 180)
+        _rot = NormalizeAngle(_rot + 180)
       end
       _rot = Round(_rot, 1)
 
@@ -2082,7 +2089,7 @@ function FS25_EnhancedVehicle:updateTrack(self, updateAngle, updateAngleValue, u
       if snapToAngle <= 1 or snapToAngle >= 360 then
         snapToAngle = _rot
       end
-      _rot = Round(closestAngle(_rot, snapToAngle), 0)
+      _rot = Round(ClosestAngle(_rot, snapToAngle), 0)
     else -- use provided angle
       _rot = updateAngleValue
     end
@@ -2403,7 +2410,8 @@ end
 
 -- #############################################################################
 
-function closestAngle(n,m)
+function ClosestAngle(n,m)
+  if m == 0 then return 0 end
   local q = math.floor(n/m)
   local n1 = m*q
   local n2 = m*(q+1)
@@ -2433,15 +2441,8 @@ end
 -- #############################################################################
 -- # make sure an angle is >= 0 and < 360
 
-function AngleFix(a)
-  while a < 0 do
-    a = a + 360
-  end
-  while a >= 360 do
-    a = a - 360
-  end
-
-  return a
+function NormalizeAngle(a)
+  return (a % 360 + 360) % 360
 end
 
 -- #############################################################################
