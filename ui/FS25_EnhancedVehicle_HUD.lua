@@ -9,7 +9,7 @@
 local myName = "FS25_EnhancedVehicle_HUD"
 
 FS25_EnhancedVehicle_HUD = {}
-local FS25_EnhancedVehicle_HUD_mt = Class(FS25_EnhancedVehicle_HUD)
+local FS25_EnhancedVehicle_HUD_mt = Class(FS25_EnhancedVehicle_HUD, HUDDisplayElement)
 
 FS25_EnhancedVehicle_HUD.SIZE = {
   TRACKBOX      = { 328, 50 },
@@ -101,8 +101,6 @@ function FS25_EnhancedVehicle_HUD:new(speedMeter, gameInfoDisplay, modDirectory)
 
   local self = setmetatable({}, FS25_EnhancedVehicle_HUD_mt)
 
---  local self = FS25_EnhancedVehicle_HUD:superClass().new(backgroundOverlay, nil, FS25_EnhancedVehicle_HUD_mt)
-
   self.speedMeter        = speedMeter
   self.gameInfoDisplay   = gameInfoDisplay
   self.modDirectory      = modDirectory
@@ -146,6 +144,8 @@ function FS25_EnhancedVehicle_HUD:new(speedMeter, gameInfoDisplay, modDirectory)
 
   -- hook into some original HUD functions
   g_currentMission.hud.sideNotifications.markProgressBarForDrawing = Utils.appendedFunction(g_currentMission.hud.sideNotifications.markProgressBarForDrawing, FS25_EnhancedVehicle_HUD.markProgressBarForDrawing)
+
+--  g_currentMission.hud.drawControlledEntityHUD = Utils.appendedFunction(g_currentMission.hud.drawControlledEntityHUD, FS25_EnhancedVehicle_HUD.drawHUD)
 
   return self
 end
@@ -627,13 +627,9 @@ function FS25_EnhancedVehicle_HUD:drawHUD()
   if self.vehicle == nil or not self.speedMeter.isVehicleDrawSafe or g_dedicatedServerInfo ~= nil then return end
 
   -- as soon as the game gauge appeared -> update our positions only once
-  if (self.isCalculated == false) then
-    if (self.speedMeter.speedBg.x == 0) then
-      return
-    else
-      self:storeScaledValues()
-      self.isCalculated = true
-    end
+  if self.isCalculated == false then
+    self:storeScaledValues()
+    self.isCalculated = true
   end
 
   -- should an element be visible at all?
