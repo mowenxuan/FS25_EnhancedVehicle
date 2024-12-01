@@ -71,28 +71,28 @@
     <text name="ui_FS25_EnhancedVehicle_odoMeterTT"        text="打开/关闭 全局里程计数器功能"/>
 
     <text name="ui_FS25_EnhancedVehicle_HUDdiffTitle"   text="HUD: 差速锁"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdiffTT"      text="打开/关闭 差速锁的 HUD 显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdiffTT"      text="打开/关闭 差速锁的HUD显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDdmgTitle"    text="HUD: 损坏值"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgTT"       text="打开/关闭 HUD 显示损坏值"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgTT"       text="打开/关闭HUD显示损坏值"/>
     <text name="ui_FS25_EnhancedVehicle_HUDfuelTitle"   text="HUD: 燃料值"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDfuelTT"      text="打开/关闭 HUD 燃油值显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDfuelTT"      text="打开/关闭HUD燃油值显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDtrackTitle"  text="HUD: 轨迹助手"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDtrackTT"     text="打开/关闭 轨迹助手的 HUD 显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDtrackTT"     text="打开/关闭轨迹助手的HUD显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDrpmTitle"    text="HUD: 转速"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDrpmTT"       text="打开/关闭 转速的 HUD 显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDrpmTT"       text="打开/关闭转速的HUD显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDtempTitle"   text="HUD: 发动机温度"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDtempTT"      text="打开/关闭 发动机温度的 HUD 显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDtempTT"      text="打开/关闭发动机温度的HUD显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDmiscTitle"   text="HUD: 杂项值 (权重)"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDmiscTT"      text="打开/关闭 HUD 显示杂项值 (例如重量)"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDmiscTT"      text="打开/关闭HUD显示杂项值 (例如重量)"/>
     <text name="ui_FS25_EnhancedVehicle_HUDparkTitle"   text="HUD: 驻车制动"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDparkTT"      text="驻车制动的 HUD 显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDparkTT"      text="驻车制动的HUD显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDodoTitle"    text="HUD: 历程计数器显示"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDodoTT"       text="打开/关闭 里程计数器的 HUD 显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDodoTT"       text="打开/关闭里程计数器的HUD显示"/>
 
     <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTitle" text="HUD: 损坏值模式"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTT"    text="在'剩余%'显示而不是'损坏%'中显示的损坏值"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO1"    text="剩余%"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO2"    text="损坏%"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTT"    text="在'%剩余'显示而不是'%损坏'中显示的损坏值"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO1"    text="%剩余"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO2"    text="%损坏"/>
 
     <text name="ui_FS25_EnhancedVehicle_snapSettingsAngleTitle" text="对齐角度"/>
     <text name="ui_FS25_EnhancedVehicle_snapSettingsAngleTT"    text="确定驾驶方向的步长 (1°-90°)"/>
