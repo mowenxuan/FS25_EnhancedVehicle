@@ -6,12 +6,12 @@
     <text name="input_FS25_EnhancedVehicle_SNAP_ONOFF"      text="EV: 捕捉当前 方向/轨迹"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_REVERSE"    text="EV: 反转捕捉/跟踪方向 (180°旋转)"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_OPMODE"     text="EV: 切换操作模式(捕捉方向​​/轨迹)"/>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_1"   text="EV: 将捕捉/跟踪 方向增加 1°"/>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_2"   text="EV: 将捕捉/跟踪 方向减少1°"/>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE2_1"   text="EV: 将捕捉/跟踪 方向增加 45°"/>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE2_2"   text="EV: 将捕捉/跟踪 方向减少 45°"/>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE3_1"   text="EV: 将捕捉/跟踪 方向增加 90°"/>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE3_2"   text="EV: 将捕捉/跟踪 方向减少90°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_1"   text="EV: 将捕捉/跟踪方向增加1°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_2"   text="EV: 将捕捉/跟踪方向减少1°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE2_1"   text="EV: 将捕捉/跟踪方向增加45°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE2_2"   text="EV: 将捕捉/跟踪方向减少45°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE3_1"   text="EV: 将捕捉/跟踪方向增加90°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE3_2"   text="EV: 将捕捉/跟踪方向减少90°"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_CALC_WW"    text="EV: (重新)计算工作宽度"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_GRID_RESET" text="EV: (重新)计算轨道布局"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_LINES_MODE" text="EV: 更改线路显示模式"/>
@@ -64,14 +64,14 @@
     <text name="ui_FS25_EnhancedVehicle_diffTitle"         text="差速锁"/>
     <text name="ui_FS25_EnhancedVehicle_diffTT"            text="打开/关闭 全局差速锁功能"/>
     <text name="ui_FS25_EnhancedVehicle_hydraulicTitle"    text="改进液压控制"/>
-    <text name="ui_FS25_EnhancedVehicle_hydraulicTT"       text="打开/关闭 全局改进的液压控制功能"/>
+    <text name="ui_FS25_EnhancedVehicle_hydraulicTT"       text="打开/关闭全局改进的液压控制功能"/>
     <text name="ui_FS25_EnhancedVehicle_parkingBrakeTitle" text="驻车制动"/>
-    <text name="ui_FS25_EnhancedVehicle_parkingBrakeTT"    text="打开/关闭 全局驻车制动功能"/>
+    <text name="ui_FS25_EnhancedVehicle_parkingBrakeTT"    text="打开/关闭全局驻车制动功能"/>
     <text name="ui_FS25_EnhancedVehicle_odoMeterTitle"     text="里程计数器"/>
     <text name="ui_FS25_EnhancedVehicle_odoMeterTT"        text="打开/关闭 全局里程计数器功能"/>
 
     <text name="ui_FS25_EnhancedVehicle_HUDdiffTitle"   text="HUD: 差速锁"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdiffTT"      text="打开/关闭 差速锁的HUD显示"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdiffTT"      text="打开/关闭差速锁的HUD显示"/>
     <text name="ui_FS25_EnhancedVehicle_HUDdmgTitle"    text="HUD: 损坏值"/>
     <text name="ui_FS25_EnhancedVehicle_HUDdmgTT"       text="打开/关闭HUD显示损坏值"/>
     <text name="ui_FS25_EnhancedVehicle_HUDfuelTitle"   text="HUD: 燃料值"/>
