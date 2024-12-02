@@ -10,7 +10,7 @@
 CHANGELOG
 
 2024-xx-xx - V1.x.x.x
-+ added translation: da
++ added translation: da, cz, es
 
 2024-12-02 - V1.1.2.2
 + several bugfixes, code optimizations and translations additions/updates

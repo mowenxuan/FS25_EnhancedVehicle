@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>Pérák</translationContributors>
+
+  <texts>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ONOFF"      text="EV: Aktivace aktuálního směru/stopy"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_REVERSE"    text="EV: Obrat aktuálního směru/stopy (otočení o 180°)"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_OPMODE"     text="EV: Přepnutí provozního režimu (směr přichycení/stopa)"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_1"   text="EV: Zvýšení směru přichycení/sledování o 1°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_2"   text="EV: Sníží směr přichycení/stopu o 1°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE2_1"   text="EV: Zvyšuje směr přichycení/sledování o 45°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE2_2"   text="EV: Snižuje směr přichycení/sledování o 45°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE3_1"   text="EV: Zvyšuje směr přichycení/sledování o 90°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE3_2"   text="EV: Snižuje směr přichycení/sledování o 90°"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_CALC_WW"    text="EV: Přepočet pracovní šířky"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_GRID_RESET" text="EV: Přepočet trasy"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_LINES_MODE" text="EV: Změna režimu zobrazení čar"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACK_1"    text="EV: Zvýšit množství obratových stop"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACK_2"    text="EV: Snížit množství stop obratu"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKP_1"   text="EV: Přesun kolejí doprava"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKP_2"   text="EV: Přesun kolejí doleva"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKW_1"   text="EV: Zvětšit šířku stop"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKW_2"   text="EV: Zmenšit šířku stop"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKO_1"   text="EV: Posunutí řádku odsazení doprava"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKO_2"   text="EV: Posunout řádek odsazení doleva"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKJ_1"   text="EV: Posunutí vozidla o jednu kolej doprava (bez odbočení)"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_TRACKJ_2"   text="EV: Přesun vozidla o jednu kolej doleva (bez zatáčení)"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_HL_MODE"    text="EV: Změna režimu na souvrati"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_HL_DIST_1"  text="EV: Zvětšení vzdálenosti na souvrati ke konci pole"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_HL_DIST_2"  text="EV: Snížit vzdálenost na souvrati ke konci pole"/>
+    <text name="input_FS25_EnhancedVehicle_FD"              text="EV: Uzávěrka diferenciálu přední nápravy zapnuto/vypnuto"/>
+    <text name="input_FS25_EnhancedVehicle_RD"              text="EV: Zapnutí/vypnutí uzávěrky diferenciálu zadní nápravy"/>
+    <text name="input_FS25_EnhancedVehicle_BD"              text="EV: Obě uzávěrky diferenciálu zapnuty/vypnuty"/>
+    <text name="input_FS25_EnhancedVehicle_DM"              text="EV: Změna režimu pohonu kol"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_REAR_UPDOWN"  text="EV: Zadní hydraulika nahoru/dolů"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_REAR_ONOFF"   text="EV: Zapnutí/vypnutí zadní hydrauliky"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_REAR_FOLD"    text="EV: Rozkládání/skládání zadní hydrauliky"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_UPDOWN" text="EV: Přední hydraulika nahoru/dolů"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_ONOFF"  text="EV: Zapnutí/vypnutí přední hydrauliky"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_FOLD"   text="EV: Přední hydraulika rozložit/sklopit"/>
+    <text name="input_FS25_EnhancedVehicle_MENU"            text="EV: Otevřít konfigurační menu"/>
+    <text name="input_FS25_EnhancedVehicle_PARK"            text="EV: Zapnutí/uvolnění parkovací brzdy"/>
+    <text name="input_FS25_EnhancedVehicle_ODO_MODE"        text="EV: Přepnutí/resetování režimu zobrazení ujetých kilometrů"/>
+
+    <text name="hud_FS25_EnhancedVehicle_notrack"     text="žádná stopa"/>
+    <text name="hud_FS25_EnhancedVehicle_nowidth"     text="žádná šířka"/>
+    <text name="hud_FS25_EnhancedVehicle_noheadland"  text="neurčeno"/>
+    <text name="hud_FS25_EnhancedVehicle_header_dmg"  text="Poškození | Barva"/>
+    <text name="hud_FS25_EnhancedVehicle_header_fuel" text="Palivo"/>
+
+    <text name="ui_FS25_EnhancedVehicle_on"  text="Zapnuto"/>
+    <text name="ui_FS25_EnhancedVehicle_off" text="Vypnuto"/>
+
+    <text name="ui_FS25_EnhancedVehicle_sectionGlobalFunctions"  text="Globální nastavení"/>
+    <text name="ui_FS25_EnhancedVehicle_sectionHUD"              text="Nastavení HUD"/>
+    <text name="ui_FS25_EnhancedVehicle_sectionSnapSettings"     text="Track Assistent nastavení"/>
+    <text name="ui_FS25_EnhancedVehicle_sectionHeadlandSettings" text="Nastavení souvratí pro"/>
+
+    <text name="ui_FS25_EnhancedVehicle_resetConfigButton"  text="Obnovit konfiguraci modů (Pozor!)"/>
+    <text name="ui_FS25_EnhancedVehicle_reloadConfigButton" text="Znovu načíst konfiguraci modů (XML)"/>
+
+    <text name="ui_FS25_EnhancedVehicle_snapTitle"         text="Track Assistent"/>
+    <text name="ui_FS25_EnhancedVehicle_snapTT"            text="Zapnout/vypnout globální funkci Track Assistent"/>
+    <text name="ui_FS25_EnhancedVehicle_diffTitle"         text="Uzávěrka diferenciálu"/>
+    <text name="ui_FS25_EnhancedVehicle_diffTT"            text="Zapnout/vypnout globální funkci uzávěrky diferenciálu"/>
+    <text name="ui_FS25_EnhancedVehicle_hydraulicTitle"    text="Vylepšené ovládání hydrauliky"/>
+    <text name="ui_FS25_EnhancedVehicle_hydraulicTT"       text="Zapnout/vypnout globální vylepšenou funkci ovládání hydrauliky"/>
+    <text name="ui_FS25_EnhancedVehicle_parkingBrakeTitle" text="Parkovací brzda"/>
+    <text name="ui_FS25_EnhancedVehicle_parkingBrakeTT"    text="Zapnout/vypnout globální funkci parkovací brzdy"/>
+    <text name="ui_FS25_EnhancedVehicle_odoMeterTitle"     text="Počítadlo kilometrů"/>
+    <text name="ui_FS25_EnhancedVehicle_odoMeterTT"        text="Zapnout/vypnout globální funkci počítadla ujetých kilometrů"/>
+
+    <text name="ui_FS25_EnhancedVehicle_HUDdiffTitle"  text="HUD: Uzávěrka diferenciálu"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdiffTT"     text="Zapnout/vypnout zobrazení HUD pro uzávěrku diferenciálu"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgTitle"   text="HUD: Hodnoty poškození"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgTT"      text="Zapnout/vypnout zobrazení HUD pro hodnoty poškození"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDfuelTitle"  text="HUD: Hodnoty paliva"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDfuelTT"     text="Zapnout/vypnout zobrazení HUD pro hodnoty paliva"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDtrackTitle" text="HUD: Track assistant"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDtrackTT"    text="Zapnout/vypnout zobrazení HUD pro traťového asistenta"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDrpmTitle"   text="HUD: RPM"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDrpmTT"      text="Zapnout/vypnout zobrazení HUD pro počet otáček"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDtempTitle"  text="HUD: Teplota motoru"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDtempTT"     text="Zapnout/vypnout zobrazení HUD pro teplotu motoru"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDmiscTitle"  text="HUD: Různé (např. Váha)"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDmiscTT"     text="Zapnout/vypnout zobrazení HUD pro různé hodnoty (např. hmotnost)"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDparkTitle"  text="HUD: Parkovací brzda"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDparkTT"     text="Zapnout/vypnout zobrazení HUD pro parkovací brzdu"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDodoTitle"   text="HUD: Zobrazení počítadla ujetých kilometrů"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDodoTT"      text="Zapnout/vypnout zobrazení HUD pro počítadlo ujetých kilometrů"/>
+
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTitle" text="HUD: Režim hodnot poškození"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTT"    text="Zobrazovat hodnoty životnosti v % namísto ‚% poškození"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO1"    text="% životnost"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO2"    text="% poškození"/>
+
+    <text name="ui_FS25_EnhancedVehicle_snapSettingsAngleTitle" text="Nastavení úhlu"/>
+    <text name="ui_FS25_EnhancedVehicle_snapSettingsAngleTT"    text="Určuje, v jakých stupňových krocích se zabírá směr jízdy (1°-90°)"/>
+
+    <text name="ui_FS25_EnhancedVehicle_visibleTracksTitle" text="Počet viditelných stop"/>
+    <text name="ui_FS25_EnhancedVehicle_visibleTracksTT"    text="Kolik stop je celkem zobrazeno (vlevo + vpravo od vozidla)"/>
+
+    <text name="ui_FS25_EnhancedVehicle_showLinesTitle"   text="Zobrazit tratě"/>
+    <text name="ui_FS25_EnhancedVehicle_showLinesTT"      text="Určuje, který druh tratí se zobrazí"/>
+    <text name="ui_FS25_EnhancedVehicle_showLinesOption1" text="Vše"/>
+    <text name="ui_FS25_EnhancedVehicle_showLinesOption2" text="None"/>
+    <text name="ui_FS25_EnhancedVehicle_showLinesOption3" text="Tracks only"/>
+    <text name="ui_FS25_EnhancedVehicle_showLinesOption4" text="Vehicle+working width only"/>
+
+    <text name="ui_FS25_EnhancedVehicle_hideLinesTitle"      text="Hide lines automatically"/>
+    <text name="ui_FS25_EnhancedVehicle_hideLinesTT"         text="Specifies whether to automatically hide auxiliary and track lines"/>
+    <text name="ui_FS25_EnhancedVehicle_hideLinesAfterTitle" text="Time until lines are hidden"/>
+    <text name="ui_FS25_EnhancedVehicle_hideLinesAfterTT"    text="After how many seconds the auxiliary and track lines will be automatically hidden"/>
+
+    <text name="ui_FS25_EnhancedVehicle_headlandModeTitle"   text="Headland mode"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandModeTT"      text="What should happen if headland is reached"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandModeOption1" text="Nothing"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandModeOption2" text="Turn around automatically"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandModeOption3" text="Disable cruise control"/>
+
+    <text name="ui_FS25_EnhancedVehicle_headlandDistanceTitle"        text="Headland distance"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandDistanceTT"           text="Turn around how many meters before end of field"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandDistanceOption1"      text="Working width"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandDistanceOptionBefore" text="before end of field"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandDistanceOptionAfter"  text="behind end of field"/>
+
+    <text name="ui_FS25_EnhancedVehicle_headlandSoundTriggerDistanceTitle" text="Alarm sound distance"/>
+    <text name="ui_FS25_EnhancedVehicle_headlandSoundTriggerDistanceTT"    text="Specifies how many meters before headland is reached an alarm sound is played"/>
+
+    <text name="global_FS25_EnhancedVehicle_snapNotEnabled"   text="Track Assistant is not enabled."/>
+    <text name="global_FS25_EnhancedVehicle_snapNoImplement"  text="Did not find a device with a working width. Using a default track layout."/>
+    <text name="global_FS25_EnhancedVehicle_workWidthUpdated" text="The working width was recalculated."/>
+    <text name="global_FS25_EnhancedVehicle_brakeBlocks"      text="Please release parking brake first."/>
+
+  </texts>
+</l10n>
