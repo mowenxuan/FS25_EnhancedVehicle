@@ -3,7 +3,7 @@
   <translationContributors>mowenxuan</translationContributors>
 
   <texts>
-    <text name="input_FS25_EnhancedVehicle_SNAP_ONOFF"      text="EV: 捕捉当前 方向/轨迹"/>
+    <text name="input_FS25_EnhancedVehicle_SNAP_ONOFF"      text="EV: 捕捉当前方向/轨迹"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_REVERSE"    text="EV: 反转捕捉/跟踪方向 (180°旋转)"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_OPMODE"     text="EV: 切换操作模式(捕捉方向​​/轨迹)"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_ANGLE1_1"   text="EV: 将捕捉/跟踪方向增加1°"/>
