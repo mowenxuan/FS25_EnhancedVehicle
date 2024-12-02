@@ -28,16 +28,16 @@
     <text name="input_FS25_EnhancedVehicle_SNAP_HL_MODE"    text="EV: 更改地头模式"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_HL_DIST_1"  text="EV: 增加地头到场地末端的距离"/>
     <text name="input_FS25_EnhancedVehicle_SNAP_HL_DIST_2"  text="EV: 减少地头到场地末端的距离"/>
-    <text name="input_FS25_EnhancedVehicle_FD"              text="EV: 前轴差速锁 开启/关闭"/>
-    <text name="input_FS25_EnhancedVehicle_RD"              text="EV: 后轴差速锁 开启/关闭"/>
-    <text name="input_FS25_EnhancedVehicle_BD"              text="EV: 两个差速锁均 开启/关闭"/>
+    <text name="input_FS25_EnhancedVehicle_FD"              text="EV: 前轴差速锁开启/关闭"/>
+    <text name="input_FS25_EnhancedVehicle_RD"              text="EV: 后轴差速锁开启/关闭"/>
+    <text name="input_FS25_EnhancedVehicle_BD"              text="EV: 两个差速锁均开启/关闭"/>
     <text name="input_FS25_EnhancedVehicle_DM"              text="EV: 更改车轮驱动模式"/>
-    <text name="input_FS25_EnhancedVehicle_AJ_REAR_UPDOWN"  text="EV: 后液压 上升/下降"/>
-    <text name="input_FS25_EnhancedVehicle_AJ_REAR_ONOFF"   text="EV: 后液压 开启/关闭"/>
-    <text name="input_FS25_EnhancedVehicle_AJ_REAR_FOLD"    text="EV: 后液压 展开/折叠"/>
-    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_UPDOWN" text="EV: 前液压 升/降"/>
-    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_ONOFF"  text="EV: 前液压 开启/关闭"/>
-    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_FOLD"   text="EV: 前液压 展开/折叠"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_REAR_UPDOWN"  text="EV: 后液压上升/下降"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_REAR_ONOFF"   text="EV: 后液压开启/关闭"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_REAR_FOLD"    text="EV: 后液压展开/折叠"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_UPDOWN" text="EV: 前液压升/降"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_ONOFF"  text="EV: 前液压开启/关闭"/>
+    <text name="input_FS25_EnhancedVehicle_AJ_FRONT_FOLD"   text="EV: 前液压展开/折叠"/>
     <text name="input_FS25_EnhancedVehicle_MENU"            text="EV: 切换/重置里程显示模式"/>
     <text name="input_FS25_EnhancedVehicle_PARK"            text="EV: 应用/释放驻车制动"/>
     <text name="input_FS25_EnhancedVehicle_ODO_MODE"        text="EV: 切换/重置里程显示模式"/>
@@ -60,15 +60,15 @@
     <text name="ui_FS25_EnhancedVehicle_reloadConfigButton" text="重新加载Mod配置 (XML)"/>
 
     <text name="ui_FS25_EnhancedVehicle_snapTitle"         text="追踪助手"/>
-    <text name="ui_FS25_EnhancedVehicle_snapTT"            text="打开/关闭 全局轨迹辅助功能"/>
+    <text name="ui_FS25_EnhancedVehicle_snapTT"            text="打开/关闭全局轨迹辅助功能"/>
     <text name="ui_FS25_EnhancedVehicle_diffTitle"         text="差速锁"/>
-    <text name="ui_FS25_EnhancedVehicle_diffTT"            text="打开/关闭 全局差速锁功能"/>
+    <text name="ui_FS25_EnhancedVehicle_diffTT"            text="打开/关闭全局差速锁功能"/>
     <text name="ui_FS25_EnhancedVehicle_hydraulicTitle"    text="改进液压控制"/>
     <text name="ui_FS25_EnhancedVehicle_hydraulicTT"       text="打开/关闭全局改进的液压控制功能"/>
     <text name="ui_FS25_EnhancedVehicle_parkingBrakeTitle" text="驻车制动"/>
     <text name="ui_FS25_EnhancedVehicle_parkingBrakeTT"    text="打开/关闭全局驻车制动功能"/>
     <text name="ui_FS25_EnhancedVehicle_odoMeterTitle"     text="里程计数器"/>
-    <text name="ui_FS25_EnhancedVehicle_odoMeterTT"        text="打开/关闭 全局里程计数器功能"/>
+    <text name="ui_FS25_EnhancedVehicle_odoMeterTT"        text="打开/关闭全局里程计数器功能"/>
 
     <text name="ui_FS25_EnhancedVehicle_HUDdiffTitle"   text="HUD: 差速锁"/>
     <text name="ui_FS25_EnhancedVehicle_HUDdiffTT"      text="打开/关闭差速锁的HUD显示"/>
@@ -90,9 +90,9 @@
     <text name="ui_FS25_EnhancedVehicle_HUDodoTT"       text="打开/关闭里程计数器的HUD显示"/>
 
     <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTitle" text="HUD: 损坏值模式"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTT"    text="在'%剩余'显示而不是'%损坏'中显示的损坏值"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO1"    text="%剩余"/>
-    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO2"    text="%损坏"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftTT"    text="在'剩余%'显示而不是'损坏%'中显示的损坏值"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO1"    text="剩余%"/>
+    <text name="ui_FS25_EnhancedVehicle_HUDdmgAmountLeftO2"    text="损坏%"/>
 
     <text name="ui_FS25_EnhancedVehicle_snapSettingsAngleTitle" text="对齐角度"/>
     <text name="ui_FS25_EnhancedVehicle_snapSettingsAngleTT"    text="确定驾驶方向的步长 (1°-90°)"/>
