@@ -10,7 +10,7 @@
 CHANGELOG
 
 2024-xx-xx - V1.x.x.x
-+ added translation: da, cz, es
++ added translation: da, cz, es, hu
 
 2024-12-02 - V1.1.2.2
 + several bugfixes, code optimizations and translations additions/updates
@@ -2457,27 +2457,6 @@ function NormalizeAngle(a)
   end
 
   return a
-end
-
--- #############################################################################
-
-function AngleModAngle(a, diff)
-  _a = a + diff
-  if _a < 0 then _a = _a + 360 end
-  if _a >= 360 then _a = _a - 360 end
-  return a
-end
-
--- #############################################################################
-
-function Angle2ModAngle2(x, z, diff)
-  local rot = 180 - math.deg(math.atan2(x, z))
-  rot = rot + diff
-  if rot < 0 then rot = rot + 360 end
-  if rot >= 360 then rot = rot - 360 end
-  local _x = math.sin(math.rad(rot))
-  local _z = math.cos(math.rad(rot))
-  return _x, _z
 end
 
 -- #############################################################################
