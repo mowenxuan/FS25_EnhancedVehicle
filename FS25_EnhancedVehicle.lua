@@ -3,11 +3,14 @@
 --
 -- Author: Majo76
 -- email: ls (at) majo76 (dot) de
--- @Date: 02.12.2024
--- @Version: 1.1.3.0
+-- @Date: 07.12.2024
+-- @Version: 1.1.3.1
 
 --[[
 CHANGELOG
+
+2024-12-07 - V1.1.3.1
+* forgot to update the modDesc version *doh*
 
 2024-12-07 - V1.1.3.0
 * HUD elements dmg and fuel can now be moved correctly by changing offsetX/Y in XML config
