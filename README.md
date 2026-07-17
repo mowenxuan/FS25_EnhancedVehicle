@@ -1,3 +1,8 @@
+# Weiterentwicklung wurde eingestellt / Development has stopped
+Danke für die Nutzung von EV. Dieses Projekt ist für mich jedoch zu einem Ende gekommen und ich habe keine Motivation, etwas für ein Spiel zu pflegen, welches mich (momentan) nicht interessiert.
+
+Thank you for using EV in the past. This project has come to an end for me, as I've no motivation to support something for a game I'm no longer interested in.
+
 # FS25_EnhancedVehicle
 
 **Direkter Download / direct download: [FS25_EnhancedVehicle.zip](https://github.com/ZhooL/FS25_EnhancedVehicle/releases/latest/download/FS25_EnhancedVehicle.zip)**
